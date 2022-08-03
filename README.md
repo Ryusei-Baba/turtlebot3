@@ -21,10 +21,6 @@ roslaunch turtlebot3_slam turtlebot3_slam.launch
 ```
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
-8.リモートPCで新たにターミナルを立ち上げ以下のコマンドを実行しマップを保存する
-```
-rosrun map_server map_saver -f ~/map
-```
 ```
 Control Your Turtlebot3
 Moving around
@@ -35,6 +31,10 @@ w/x : increase/decrease linear velocity
 a/d : increase/decrease angular velocity
 space key, s : force stop
 CTRL-C to quit
+```
+8.リモートPCで新たにターミナルを立ち上げ以下のコマンドを実行しマップを保存する
+```
+rosrun map_server map_saver -f ~/map
 ```
 ***
 # link
