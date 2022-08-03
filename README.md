@@ -17,6 +17,17 @@ roslaunch turtlebot3_bringup turtlebot3_robot.launch
 ```
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
+```
+Control Your Turtlebot3
+Moving around
+     w
+ a   s   d
+     x
+w/x : increase/decrease linear velocity
+a/d : increase/decrease angular velocity
+space key, s : force stop
+CTRL-C to quit
+```
 ***
 # link
 [タートルボット３ eマニュアル](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup)   
