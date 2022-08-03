@@ -13,9 +13,17 @@ roscore
 ```
 roslaunch turtlebot3_bringup turtlebot3_robot.launch
 ```
-6.キーボードを使用して遠隔操作のために**リモートPC**からノードを起動する   
+6.リモートPCから新しいターミナルを開き、SLAMノードを起動   
+```
+roslaunch turtlebot3_slam turtlebot3_slam.launch
+```
+7.キーボードを使用して遠隔操作のために**リモートPC**からノードを起動する   
 ```
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+```
+8.リモートPCで新たにターミナルを立ち上げ以下のコマンドを実行しマップを保存する
+```
+rosrun map_server map_saver -f ~/map
 ```
 ```
 Control Your Turtlebot3
