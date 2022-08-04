@@ -60,6 +60,7 @@ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map
 ```
 
 10.その後はRVizメニューの2D Pose Estimateボタンや[**ターミナルB3**]のキーボード操作などで初期位置を設定し、RVizメニューの2D Nav Goalボタンで目的地を設定する。
+***
 # link
 [タートルボット３ eマニュアル](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup)   
 [TurtleBot3 Burger のファームウェアのアップロード エラー](https://www.blue-weblog.com/entry/2017/11/23/204902)   
