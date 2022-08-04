@@ -12,6 +12,8 @@ roscore
 5.**sshで入ったターミナル**で以下を実行する   
 ```
 export OPENCR_PORT=/dev/ttyACM0
+cd ./opencr_update
+./update.sh $OPENCR_PORT $OPENCR_MODEL.opencr
 roslaunch turtlebot3_bringup turtlebot3_robot.launch
 ```
 6.リモートPCから新しいターミナルを開き、SLAMノードを起動   
