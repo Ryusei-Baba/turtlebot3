@@ -1,13 +1,15 @@
 # turtlebot3
 セットアップ済み(exportなどは~/.bashrcに書き込み済み)   
-※IPアドレスが変わっている場合は~/.bashrcのアドレス部分を変更する
+※IPアドレスが変わっている場合は~/.bashrcのアドレス部分を変更する   
+### [デモ動画(ナビゲーション)](https://youtu.be/02gZeIksStU)   
+### [デモ動画(SLAM)](https://youtu.be/nOOk7smzSCU)
 ***
 ## 動かし方
 1.リモートPCのwifi設定（テザリング）   
 
 2.raspberry piにモニターとキーボードを接続し、ユーザー名：ubuntu、password：turtlebotでログインする。ip aなどでIPアドレスを確認（wlan0が無線接続）する   
 
-3.ssh ubuntu@｛IPアドレス(wlan0)｝でリモートPCからraspberry piにログインする[**ターミナルA１**]   
+3.ssh ubuntu@｛IPアドレス(wlan0)｝でリモートPCからraspberry piにログインする[**ターミナルA1**]   
 
 4.リモートPCでターミナルを立ち上げ、以下を実行する[**ターミナルB1**]    
 ```
