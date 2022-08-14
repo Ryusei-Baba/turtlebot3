@@ -2,7 +2,8 @@
 セットアップ済み(exportなどは~/.bashrcに書き込み済み)   
 ※IPアドレスが変わっている場合は~/.bashrcのアドレス部分を変更する   
 ### [デモ動画(ナビゲーション)](https://youtu.be/02gZeIksStU)   
-### [デモ動画(SLAM)](https://youtu.be/nOOk7smzSCU)
+### [デモ動画(SLAM)](https://youtu.be/nOOk7smzSCU)   
+### [map](https://github.com/Ryusei-Baba/turtlebot3/tree/main/map/0804_beautiful)
 ***
 ## 動かし方
 1.リモートPCのwifi設定（テザリング）   
